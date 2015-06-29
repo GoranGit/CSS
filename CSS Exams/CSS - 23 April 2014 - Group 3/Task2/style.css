@@ -1,0 +1,82 @@
+﻿body {
+    font-family:Constantina, Georgia, 'Nimbus Roman No9 L', serif;
+    font-size:16px;
+
+}
+ul{
+    margin:0;
+    padding:0;
+        }
+a{
+    text-decoration:none;
+}
+#wrapper{
+    width:960px;
+}
+.menu{
+    list-style:none;
+    text-align:center;
+}
+.menu>li>a{
+    text-decoration:none;
+    color:#000000;
+    display:inline-block;
+    margin-top:10px;
+}
+    .menu>li {
+        width: 170px;
+        height: 40px;
+        background-color: #b6ff00;
+        margin-bottom: 10px;
+        border-radius: 15px;
+
+    }
+    .menu>li.hover >a{
+        text-decoration:underline;
+    }
+    .menu li.hover .content{
+        display:block;
+    }
+
+.content{
+    display:none;
+    position:absolute;
+    left:180px;
+    top:-10px;
+}
+.sub-menu{
+    list-style:none;
+    text-align:left;
+}
+
+.sub-menu li{
+    width:540px;
+    height:60px;
+    background-color:#008000;
+    margin-bottom:10px;
+    
+    border-radius:10px;
+    box-sizing:border-box;
+    padding:20px;
+}
+.sub-menu li a{
+    color:#ffffff;
+}
+.sub-menu li.hover{
+    height:330px;
+}
+.sub-menu li.hover img{
+    display:block;
+    
+}
+.sub-menu li.hover a{
+    text-decoration:underline;
+}
+
+.content img{
+    display:none;
+    width:500px;
+    height:260px;
+    margin-top:10px;
+    border-radius:10px;
+}

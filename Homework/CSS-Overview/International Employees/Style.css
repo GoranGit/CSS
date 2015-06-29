@@ -1,0 +1,33 @@
+﻿body {
+}
+table{
+   
+    border-bottom: solid black 1px;
+}
+tr:first-child{
+   background: linear-gradient(#5EC306, #47A803);
+   color:white;
+   border-bottom:solid black;
+}
+input[type=checkbox]{
+    border-style:outset;
+}
+tr:nth-child(2n+1)
+{
+    background-color:#ECECD8;
+}
+tr:first-child td{
+    border-bottom:solid black 1px;
+    border-left:solid black 1px;
+}
+td{
+    
+    padding-right:10px;
+    padding-left:10px;
+}
+.flag{
+    width:30px;
+    height:15px;
+   margin-top:5px;
+   margin-right:5px;
+}

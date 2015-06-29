@@ -1,0 +1,18 @@
+﻿body{
+    font-size:24px;
+}
+
+ul{
+    list-style-type:none;
+}
+ul li ul{
+    display:none;
+    color:#8c8e9a;
+}
+ul li:hover>a{
+    text-decoration:underline;
+
+}
+ul li:hover > ul{
+    display:block;
+}

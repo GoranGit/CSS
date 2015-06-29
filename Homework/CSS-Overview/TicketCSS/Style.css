@@ -1,0 +1,39 @@
+﻿body {
+}
+.table-class{
+        background-color:#595959;
+}
+.th-class{
+    font-weight:normal;
+    float:left;
+    color:#ADBAAA
+}
+td{
+    width:200px;
+}
+
+.td-name{
+font-size:smaller;
+font-style:italic;   
+color:white;
+font-weight:normal;
+}
+
+td.yellow#name:before {
+    content: "● ";
+    color: #71b47a;
+}
+
+td.yellow{
+    color:#DAD58A;
+}
+
+td.red{
+    color:#C10E05;
+}
+.grey{
+        color:#ADBAAA;
+}
+.orange{
+   color: #DF6B2A;
+}

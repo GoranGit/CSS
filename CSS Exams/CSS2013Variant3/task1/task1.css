@@ -1,0 +1,102 @@
+﻿body{
+    margin-top:0;
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'DejaVu Sans Condensed', sans-serif;
+    font-size:16px;
+}
+
+ul{
+    margin:0;
+  list-style:none;
+}
+#wrapper{
+    width:960px;
+    padding-top:205px;
+}
+
+.msg-bar-content {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+    width: 462px;
+    height: 162px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: solid 1px #000000;
+    border-bottom: none;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    background:#aaffef;
+
+    padding:10px 15px;
+}
+.msg-bar{
+    list-style-type:none;
+}
+.msg-bar>li{
+    float:left;
+}
+.msg-bar-btn{
+    text-decoration:none;
+    display:block;
+    border:1px solid #000000;
+  padding-left:16px;
+  padding-right:16px;
+    padding-top:4px;
+    padding-bottom:1px;
+    color:#0094fa;
+    background: #aaffef; /* Old browsers */
+background: -moz-linear-gradient(top,  #aaffef 0%, #aaffef 14%, #a6ffee 18%, #13ffd2 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#aaffef), color-stop(14%,#aaffef), color-stop(18%,#a6ffee), color-stop(100%,#13ffd2)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #aaffef 0%,#aaffef 14%,#a6ffee 18%,#13ffd2 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #aaffef 0%,#aaffef 14%,#a6ffee 18%,#13ffd2 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #aaffef 0%,#aaffef 14%,#a6ffee 18%,#13ffd2 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #aaffef 0%,#aaffef 14%,#a6ffee 18%,#13ffd2 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaffef', endColorstr='#13ffd2',GradientType=0 ); /* IE6-9 */
+
+}
+.msg-bar li:hover .msg-bar-content{
+    display:block;
+
+}
+.msg-bar li:hover  a{
+    background:#00ddb3;
+    margin-top:-3px;
+    border-top:4px solid #aaffef;
+    
+}
+.me-item .other-item{
+    display:block;
+}
+.user{
+        padding:5px 10px 0 5px;
+     display:inline-block;
+      color:#3a94ff;
+      border:solid 1px #000000;
+      border-radius:20px;
+      float:left;
+      margin-top:5px;
+      clear:left;
+}
+.me-item .user:before {
+    content: url('imgs/me.png');
+    margin-right:5px;
+}
+.other-item .user:before {
+    content: url('imgs/male.png');
+    margin-right: 5px;
+}
+span:nth-child(2){
+    display:block;
+    float:right;    
+   width:330px;
+   text-align:right;
+   border-bottom:1px solid #000000;
+   clear:right;
+   color:#3a94ff;
+}
+ .msg-bar-content ul{
+     margin:0;
+     padding:0;
+ } 

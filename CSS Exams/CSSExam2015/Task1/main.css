@@ -1,0 +1,64 @@
+﻿html,
+body,
+div,
+h1,
+ul,
+li,
+p,
+a,
+img,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size:14px;
+    font-family:"Arial";
+}
+#root{
+    margin:0;
+    padding:0;
+    width:500px;
+    height:633px;
+}
+.preview{
+    display:none;
+    margin-top:30px;
+}
+.avengers{
+    background-color:#205d99;
+}
+.avengers li{
+    text-align:center;
+    border-bottom:3px solid #79aee3;
+    padding:15px;
+}
+input[type=radio]{
+  display:none;
+}
+.avengers li label{
+    font-size:21px;
+    color:#e4eff9;
+}
+input[type=radio]:checked ~ .preview {
+    display:block;
+}
+input[type=radio]:checked + label{
+    font-size:24px;
+    font-weight:bold;
+    color:#aecfee;
+}
+
+img{
+    width:200px;
+    height:115px;
+    border:solid 15px #79aee3;
+    float:left;
+    border-radius:15px;
+    margin-right:10px;
+}
+p{
+    color:#e4efea;
+    text-align:justify;
+}
